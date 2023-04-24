@@ -14,6 +14,6 @@ public class Main {
         // if no millisecond amount is specified, it defaults to only beginning next thread when the preceding thread dies
         thread2.start();
 
-        System.out.println(1/0); // even though this will throw an exception, the other threads will run independent of this.
+        System.out.println(1/0); // even though this will throw an exception, the other threads will run independent of this..
     }
 }
